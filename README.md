@@ -1,2 +1,90 @@
 # aisyahhumairoh-lab.github.io
 MUHAMMAD HIDAYAT
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV - MUHAMMAD HIDAYAT</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#f1f5f9;display:flex;justify-content:center;padding:20px}
+.cv{max-width:900px;width:100%;background:#fff;display:flex;flex-wrap:wrap;box-shadow:0 10px 40px rgba(0,0,0,.15);border-radius:12px;overflow:hidden}
+.left{width:32%;background:#0f172a;color:#fff;padding:30px 22px}
+.right{width:68%;padding:30px 28px}
+.photo{width:140px;height:140px;background:linear-gradient(135deg,#2563eb,#7c3aed);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:56px;font-weight:800;margin:0 auto 18px;border:4px solid #334155}
+.left h3{font-size:14px;letter-spacing:1px;border-bottom:2px solid #2563eb;padding-bottom:6px;margin:22px 0 12px;text-transform:uppercase;color:#60a5fa}
+.left p,.left li{font-size:13px;line-height:1.7;opacity:.9}
+.left ul{list-style:none}
+.left li{margin-bottom:6px}
+.left i{width:20px;color:#60a5fa}
+.skill-bar{background:#1e293b;height:7px;border-radius:10px;margin:6px 0 12px;overflow:hidden}
+.skill-fill{height:100%;background:#2563eb;border-radius:10px}
+.right h1{font-size:28px;color:#0f172a;letter-spacing:.5px}
+.right h2{font-size:15px;color:#2563eb;font-weight:600;margin-top:4px;letter-spacing:.5px}
+.hr{height:3px;background:#0f172a;width:60px;margin:14px 0 18px}
+.right h3{font-size:15px;color:#0f172a;border-left:4px solid #2563eb;padding-left:10px;margin:24px 0 12px;text-transform:uppercase}
+.right p,.right li{font-size:13.5px;color:#334155;line-height:1.8}
+.timeline{border-left:2px solid #e2e8f0;padding-left:18px;margin-left:6px;position:relative}
+.timeline::before{content:'';width:10px;height:10px;background:#2563eb;border-radius:50%;position:absolute;left:-6px;top:4px}
+.btn-print{display:inline-block;background:#0f172a;color:#fff;padding:10px 20px;border-radius:8px;text-decoration:none;font-size:13px;margin-top:10px}
+@media(max-width:700px){.left,.right{width:100%}}
+</style>
+</head>
+<body>
+<div class="cv">
+  <div class="left">
+    <div class="photo">MH</div>
+    <h2 style="text-align:center;font-size:18px">MUHAMMAD HIDAYAT</h2>
+    <p style="text-align:center;font-size:12px;margin-top:6px;opacity:.7">Pelajar - SMK N 2 Panyabungan</p>
+    <h3>Kontak</h3>
+    <ul>
+      <li>📞 08xx-xxxx-xxxx</li>
+      <li>✉️ muhammad.hidayat@email.com</li>
+      <li>📍 Panyabungan, Mandailing Natal</li>
+      <li>🌐 aisyahhumairoh-lab.github.io</li>
+    </ul>
+    <h3>Keahlian</h3>
+    <p>HTML & CSS</p>
+    <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+    <p>Microsoft Office</p>
+    <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+    <p>Komputer Jaringan</p>
+    <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+    <p>Desain Grafis</p>
+    <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+    <h3>Bahasa</h3>
+    <ul><li>Indonesia - Aktif</li><li>Inggris - Dasar</li></ul>
+    <h3>Hobi</h3>
+    <ul><li>💻 Ngoding</li><li>📚 Belajar</li><li>⚽ Olahraga</li></ul>
+  </div>
+  <div class="right">
+    <h1>MUHAMMAD HIDAYAT</h1>
+    <h2>SMK NEGERI 2 PANYABUNGAN - TKJ</h2>
+    <div class="hr"></div>
+    <h3>Tentang Saya</h3>
+    <p>Saya adalah pelajar dari <b>SMK Negeri 2 Panyabungan</b>, Mandailing Natal. Saya memiliki minat besar di bidang Teknologi Komputer dan Jaringan. Disiplin, bertanggung jawab, dan cepat belajar hal baru.</p>
+    <h3>Pendidikan</h3>
+    <div class="timeline">
+      <b>SMK Negeri 2 Panyabungan - TKJ</b><br>
+      <small style="color:#64748b">2023 - Sekarang | Jl. Syekh A. Kadir Mandili No.59</small>
+    </div>
+    <h3>Pengalaman Tugas</h3>
+    <div class="timeline">
+      <b>Tugas CV - Produktif TKJ</b><br>
+      <small>Membuat website CV pribadi di GitHub Pages - aisyahhumairoh-lab.github.io</small>
+    </div>
+    <h3>Prestasi</h3>
+    <ul style="margin-left:18px">
+      <li>Siswa aktif SMK N 2 Panyabungan</li>
+      <li>Mampu membuat website pribadi</li>
+      <li>Menguasai dasar komputer dan jaringan</li>
+    </ul>
+    <a class="btn-print" href="#" onclick="window.print()">Cetak / Save PDF</a>
+    <p style="margin-top:20px;font-size:11px;color:#94a3b8;text-align:right">© 2026 MUHAMMAD HIDAYAT</p>
+  </div>
+</div>
+</body>
+</html>
